@@ -6,7 +6,7 @@ Accurate segmentation of red blood cells (RBCs) is a key aspect of Deep Learning
 
 Using a subset of the Toy2 dataset ([Merdasa et al., 2013](https://doi.org/10.1117/1.JBO.18.3.036002)), captured using a multispectral multimodal microscope ([Brydegaard et al., 2011](https://doi.org/10.1063/1.3660810)), this study systematically reduces image resolutions from *1200x1600* to *60x80* pixels and evaluates the segmentation accuracy of two Cellpose 2.0 models ([Pachitariu et al., 2022](https://doi.org/10.1038/s41592-022-01663-4)). The models are trained on manually annotated ground truth cell masks and assessed using pixel-wise and cell-wise metrics, including Dice Score, Panoptic Quality Score, and F1 Score.
 
-# Result Segmentation on Test Samples
+# Segmentation Result
 
 <p align="center">
   <img src="images/test_result_0_9.png" alt="T07_Sample1_R - Factor 0.7" width="30%" />
