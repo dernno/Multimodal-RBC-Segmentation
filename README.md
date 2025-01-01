@@ -20,7 +20,7 @@ Using a subset of the Toy2 dataset ([Merdasa et al., 2013](https://doi.org/10.11
   </div>
 </p>
 
-Image credits: ([Merdasa et al., 2013](https://doi.org/10.1117/1.JBO.18.3.036002))
+Original Image Credits (without Segmentation Mask): ([Merdasa et al., 2013](https://doi.org/10.1117/1.JBO.18.3.036002))
 
 # Implementation
 ## Image & Mask Rescaling *resize_tif_png.py*
