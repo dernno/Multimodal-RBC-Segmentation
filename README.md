@@ -7,8 +7,13 @@ Accurate segmentation of red blood cells (RBCs) is a key aspect of Deep Learning
 Using a subset of the Toy2 dataset (\cite{Merdasa2013}, captured using a multispectral multimodal microscope \cite{Brydegaard2011}), this study systematically reduces image resolutions from *1200x1600* to *60x80* pixels and evaluates the segmentation accuracy of two Cellpose 2.0 models. The models are trained on manually annotated ground truth cell masks and assessed using pixel-wise and cell-wise metrics, including Dice Score, Panoptic Quality Score, and F1 Score.
 
 # Segmentation on Unknown Test Samples
-![T07_Sample1_R - Factor 0.7](images/test_result_0_9.eps)
-![T07_Sample1_R - Factor 0.2](images/test_result_0_2.png)
+# Segmentation on Unknown Test Samples
+
+<div style="display: flex; justify-content: space-between;">
+  <img src="images/test_result_0_9.eps" alt="T07_Sample1_R - Factor 0.9" width="45%" />
+  <img src="images/test_result_0_2.png" alt="T07_Sample1_R - Factor 0.2" width="45%" />
+</div>
+
 Base image credits: A. Merdasa, M. Brydegaard, S. Svanberg, and J. T. Zoueu, “Staining-free malaria diagnostics by multispectral and multimodality light-emitting-diode microscopy,” J Biomed Opt, vol. 18, no. 3, p. 036002, Mar. 2013, doi: 10.1117/1.JBO.18.3.036002.
 
 
