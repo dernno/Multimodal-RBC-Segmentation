@@ -4,19 +4,19 @@ Stepwise image resolution reduction and evaluation of multimodal red blood cell 
 # Introduction
 Accurate segmentation of red blood cells (RBCs) is a key aspect of Deep Learning-based malaria diagnostics, enabling precise parasite classification and effective spectral analysis. This project explores the impact of image resolution and imaging modalities on segmentation accuracy, aiming to identify a resolution threshold that balances computational efficiency with diagnostic performance.
 
-Using a subset of the Toy2 dataset ([Merdasa et al., 2013](https://doi.org/10.1117/1.JBO.18.3.036002)), captured using a multispectral multimodal microscope ([Brydegaard et al., 2011](https://doi.org/10.1063/1.3660810)), this study systematically reduces image resolutions from *1200x1600x3* to *60x80x3* pixels. The Cellpose 2.0 models ([Pachitariu et al., 2022](https://doi.org/10.1038/s41592-022-01663-4)) are trained on manually annotated ground truth cell masks and images of various resolutions and evaluated using pixel-wise and cell-wise metrics, including Dice Score, Panoptic Quality Score, and F1 Score.
+Using a subset of the Toy2 dataset ([Merdasa et al., 2013](https://doi.org/10.1117/1.JBO.18.3.036002)), captured using a multispectral multimodal microscope ([Brydegaard et al., 2011](https://doi.org/10.1063/1.3660810)), this study systematically reduces image resolutions from *1200x1600* to *60x80* pixels. The Cellpose 2.0 models ([Pachitariu et al., 2022](https://doi.org/10.1038/s41592-022-01663-4)) are trained on manually annotated ground truth cell masks and images of various resolutions and evaluated using pixel-wise and cell-wise metrics, including Dice Score, Panoptic Quality Score, and F1 Score.
 
 # Segmentation Result
 <p align="center">
   <div style="display: inline-block; margin-right: 20px; text-align: center;">
     <img src="images/test_result_0_9.png" alt="T07_Sample1_R - Factor 0.7" width="45%" />
     <br />
-    <span style="font-size: 12px; color: gray;">Image Resolution 1080x1440x3, Avg. Diameter Cell: 40.5</span>
+    <span style="font-size: 12px; color: gray;">Image Resolution 1080x1440, Avg. Diameter Cell: 40.5</span>
   </div>
   <div style="display: inline-block; text-align: center;">
     <img src="images/test_result_0_2.png" alt="T07_Sample1_R - Factor 0.2" width="45%" />
     <br />
-    <span style="font-size: 12px; color: gray;">Image Resolution 240x320x3, Avg. Diameter Cell: 9 Pixel</span>
+    <span style="font-size: 12px; color: gray;">Image Resolution 240x320, Avg. Diameter Cell: 9 Pixel</span>
   </div>
 </p>
 
