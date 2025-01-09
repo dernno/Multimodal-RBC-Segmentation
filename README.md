@@ -4,7 +4,7 @@ Stepwise image resolution reduction and evaluation of multimodal red blood cell 
 # Introduction
 Accurate segmentation of red blood cells (RBCs) is a key aspect of Deep Learning-based malaria diagnostics, enabling precise parasite classification and effective spectral analysis. This project explores the impact of image resolution and imaging modalities on segmentation accuracy, aiming to identify a resolution threshold that balances computational efficiency with diagnostic performance.
 
-Using a subset of the Toy2 dataset ([Merdasa et al., 2013](https://doi.org/10.1117/1.JBO.18.3.036002)), captured using a multispectral multimodal microscope ([Brydegaard et al., 2011](https://doi.org/10.1063/1.3660810)), this study systematically reduces image resolutions from *1200x1600* to *60x80* pixels. The Cellpose 2.0 models ([Pachitariu et al., 2022](https://doi.org/10.1038/s41592-022-01663-4)) are trained on manually annotated ground truth cell masks and images of various resolutions and evaluated using pixel-wise and cell-wise metrics, including Dice Score, Panoptic Quality Score, and F1 Score.
+Using a subset of the Toy2 dataset ([Merdasa et al., 2013](https://doi.org/10.1117/1.JBO.18.3.036002)), captured using a multispectral multimodal microscope ([Brydegaard et al., 2011](https://doi.org/10.1063/1.3660810)), this study systematically reduces image resolutions from *1200x1600x3* to *60x80x3* pixels. The Cellpose 2.0 models ([Pachitariu et al., 2022](https://doi.org/10.1038/s41592-022-01663-4)) are trained on manually annotated ground truth cell masks and images of various resolutions and evaluated using pixel-wise and cell-wise metrics, including Dice Score, Panoptic Quality Score, and F1 Score.
 
 # Segmentation Result
 <p align="center">
@@ -54,7 +54,7 @@ Execute the Three Notebooks in Google Colab
 
 ## Dynamic Diameter Adjustment
 - Adjusted pixel diameter based on image resolution for consistent segmentation performance.
-- Example: Diameter of 45 pixels for *1200x1600*, Diameter of 22.5 pixels for *120x160*
+- Example: Diameter of 45 pixels for *1200x1600x3*, Diameter of 22.5 pixels for *120x160x3*
 
 # References:
 1. **Merdasa, Aboma, Mikkel Brydegaard, Sune Svanberg, and Jeremie T. Zoueu.**  
