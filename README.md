@@ -54,7 +54,7 @@ Execute the Three Notebooks in Google Colab
 
 ## Dynamic Diameter Adjustment
 - Adjusted pixel diameter based on image resolution for consistent segmentation performance.
-- Example: Diameter of 45 pixels for *1200x1600x3*, Diameter of 22.5 pixels for *120x160x3*
+- Example: Diameter of 45 pixels for *1200x1600*, Diameter of 22.5 pixels for *120x160*
 
 # References:
 1. **Merdasa, Aboma, Mikkel Brydegaard, Sune Svanberg, and Jeremie T. Zoueu.**  
