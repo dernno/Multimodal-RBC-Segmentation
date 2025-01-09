@@ -11,12 +11,12 @@ Using a subset of the Toy2 dataset ([Merdasa et al., 2013](https://doi.org/10.11
   <div style="display: inline-block; margin-right: 20px; text-align: center;">
     <img src="images/test_result_0_9.png" alt="T07_Sample1_R - Factor 0.7" width="45%" />
     <br />
-    <span style="font-size: 12px; color: gray;">Image Resolution 1080x1440, Avg. Diameter Cell: 40.5</span>
+    <span style="font-size: 12px; color: gray;">Image Resolution 1080x1440x3, Avg. Diameter Cell: 40.5</span>
   </div>
   <div style="display: inline-block; text-align: center;">
     <img src="images/test_result_0_2.png" alt="T07_Sample1_R - Factor 0.2" width="45%" />
     <br />
-    <span style="font-size: 12px; color: gray;">Image Resolution 240x320, Avg. Diameter Cell: 9 Pixel</span>
+    <span style="font-size: 12px; color: gray;">Image Resolution 240x320x3, Avg. Diameter Cell: 9 Pixel</span>
   </div>
 </p>
 
